@@ -21,7 +21,7 @@
 * Terminal
 * Visual Studio Code
 
-## Refrences:
+## References:
 
 * youtube
 * class videos
