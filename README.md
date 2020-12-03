@@ -1,5 +1,5 @@
 # MINICOOPER_ APP 
-![Mini app](/images/logo.svg)
+![Mini app](/images/logo.jpg)
 
 ## Table of content:
 * Explaination
