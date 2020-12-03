@@ -20,7 +20,8 @@ async function fetchData(sourceURL) {
     // we'll assume success and pass through a parsed JavaScript object from the JSON data we get
     let dataset = await resource.json();
 
-    return dataset;            
+    return dataset[0];
+
 }
 
 async function postData(sourceURL) {
