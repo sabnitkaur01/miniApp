@@ -2,7 +2,7 @@
 @import "components/_body";
 @import "components/_nav";
 
+@import "components/_mediaqueries";
+@import "components/_mixin";
 
-.bio-data { display: none; }
 
-.show-bio { display: block !important; }
