@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniCooper App</title>
+    <link rel="stylesheet" href=css/main.css>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+</head>
+<body>
+    
+    <div class="nav">
+        <h2> HOME </h2>
+        <h2>ABOUT</h2>
+        <h1>MINI APP</h1>
+        <h2>WORK</h2>
+        <h2>CONTACT</h2>
+
+    </div>
+
+    <main id="miniApp">
+        <div class="header">
+
+           <h2>Get you Favorite car today!</h2>
+        </div>
+
+        <figure class="mainBox">
+
+            <section class="info hideinfo" :class="{'show-info' : show_info}">
+                
+                <h2>{{currentCarData.name}}</h2>
+                <p>{{currentCarData.about}}</p>
+
+                <img :src="'images/' + currentCarData.image" alt="">
+
+            </section>
+
+            <section class="imgArea">
+
+                <img-area @showmyInfo="imgAreaSelected" 
+                v-for="car in carImg" :car="car" :key="car.id"></img-area>
+
+            </section>    
+        </figure>
+        
+    </main>
+
+</body>
+
+<script src="js/main.js" type="module"></script>
+</html>
