@@ -1,4 +1,4 @@
-# MINICOOPER_ APP
+# MINICOOPER_ APP 
 ![Mini app](/images/logo.svg)
 
 ## Table of content:
@@ -26,12 +26,11 @@
 * youtube
 * class videos
 
-## Author
-#### Sabnit Kaur
-
 ### License
 Copyright (c) 2020 Fanshawe
 College All Rights Reserved.
 
+## Author
+#### Sabnit Kaur
 
 
